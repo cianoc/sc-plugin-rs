@@ -1,4 +1,4 @@
-# sc-plugin-rs
+# sc-plugin-sys
 
 Unsafe bindings for the SuperCollider plugin format.
 
