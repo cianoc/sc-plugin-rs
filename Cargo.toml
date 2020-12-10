@@ -1,0 +1,19 @@
+[package]
+name = "sc-plugin-sys"
+version = "0.1.0"
+authors = ["Cian O'Connor <cianoconnor@gmail.com>"]
+edition = "2018"
+description = "Rust bindings for the SuperCollider plugin format"
+license = "GPL-3.0"
+keywords = ["audio", "ffi", "plugin", "supercollider"]
+categories = ["external-ffi-bindings", "multimedia::audio"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+bindgen = "0.56"
+
+[package]
+build = "build.rs"
